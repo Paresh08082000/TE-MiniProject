@@ -78,6 +78,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 					<p>Not Registered? <a href="teacher_registration.php">Create an Account</a></p>
 				</div>
 			</form>
+			<a href="home.html" style="font-weight:bold;margin:20px;">HOME</a>
 			<!--login form end-->
 		</div>
 		<!--form area end-->

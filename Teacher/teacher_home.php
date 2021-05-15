@@ -170,9 +170,61 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
         #id {
             text-align:center;
         }
+        .contact-us #contact-heading{
+          text-align: center;
+          font-weight: bolder;
+          font-size: 50px;
+        }
+        .contact-us{
+          text-align: center;
+          margin: 70px;
+          padding: 20px
+        }
+        .social-icon {
+          margin: 80px 40px;
+        }
+        .contact-us .social-icon img{
+            transform: scale(0.5);
+            transition:0.5s;
+            width: 100px;
+            height: 100px;
+        }
+        .contact-us .social-icon img:hover{
+          transform: scale(0.5) translateY(-25px);
+        }
+        .contact-us p{
+          font-size:35px;
+          margin:15px;
+          font-weight:bold;
+        }
+      }
     </style>
-
+    <hr>
+    <div class="contact-us">
+      <p id="contact-heading">Contact Us</p>
+      <a class="social-icon" href="https://www.facebook.com/PCCOENigadi/" target="_blank">
+        <img src="http://www.pccoepune.com/images/fb.png" alt="fb_pccoe">
+      </a>
+      <a class="social-icon" href="https://www.linkedin.com/company/pccoe-pune?trk=biz-companies-cym" target="_blank">
+        <img alt="Pimpri Chinchwad college of engineering is the best engg college in Pune." class="marginleft10"
+          src="http://www.pccoepune.com/images/Linkedin-icon.png">
+      </a>
+      <a class="social-icon" href="https://twitter.com/pccoe_pune" target="_blank">
+        <img alt="PCCOE is the best Engineering Institute in Pimpri Chinchwad Pune." class="marginleft10"
+          src="http://www.pccoepune.com/images/twitter.png">
+      </a>
+      <a class="social-icon" href="https://www.instagram.com/pccoepune/" target="_blank">
+        <img alt="PCCOE, the famous Engineering College in Pune provides the placement in the most reputed companies."
+          class="marginleft10" src="http://www.pccoepune.com/images/insta-icon.png" width="32px" height="31px">
+      </a>
+      <a class="social-icon" href="https://www.youtube.com/channel/UCQiPDETOiteTLmAvvPk1WjA" target="_blank">
+        <img alt="PCCOE, best engineering college in Pune offers good courses with good placement." class="marginleft10"
+          src="http://www.pccoepune.com/images/youtube-icon.png" width="32px" height="31px">
+      </a>
+      <p style="color:black">PCCOE, Pune </p>
+    </div>
   <hr>
+  
 </body>
 
 </html>
